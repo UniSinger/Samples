@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "EditSinger: Zero-Shot Text-Based Singing Voice Editing System with Diverse Prosody Modeling"
+title: "UniSinger: Unified End-to-End Singing Voice Synthesis With Cross-Modality Information Matching"
 # email: your-email@example.com
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
