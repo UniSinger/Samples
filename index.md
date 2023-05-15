@@ -23,48 +23,48 @@ All experiments in the paper are conducted on a large-scale singing voice datase
         <tbody>
         <tr>
             <th>#1</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/gt/0000.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/mel+hifigan/0000.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/fs2/0000.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/fs2s/0000.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/visinger/0000.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/unisinger/0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/gt/0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/visinger/0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/unisinger/0000.mp3" type="audio/mp3"></audio></td>
         </tr>
         <tr>
             <th>#2</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/gt/[G]0514#女_2_1-分手快乐-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/0514#女_2_1-分手快乐-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/0514#女_2_1-分手快乐-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/0514#女_2_1-分手快乐-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/visinger/0514#女_2_1-分手快乐-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/unisinger/[000001][0514#女_2_1-分手快乐-0001][P].mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/gt/0001.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/0001.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/0001.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/0001.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/visinger/0001.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/unisinger/0001.mp3" type="audio/mp3"></audio></td>
         </tr>
         <tr>
             <th>#3</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/gt/[G]1011#2-6_0104_昨日青空_成佳怡-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/1011#2-6_0104_昨日青空_成佳怡-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/1011#2-6_0104_昨日青空_成佳怡-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/1011#2-6_0104_昨日青空_成佳怡-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/visinger/1011#2-6_0104_昨日青空_成佳怡-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/unisinger/[000016][1011#2-6_0104_昨日青空_成佳怡-0001][P].mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/gt/0002.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/0002.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/0002.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/0002.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/visinger/0002.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/unisinger/0002.mp3" type="audio/mp3"></audio></td>
         </tr>
         <tr>
             <th>#4</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/gt/[G]1011#2-6_0338_南山南_陈庆之-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/1011#2-6_0338_南山南_陈庆之-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/1011#2-6_0338_南山南_陈庆之-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/1011#2-6_0338_南山南_陈庆之-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/visinger/1011#2-6_0338_南山南_陈庆之-0001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/unisinger/[000030][1011#2-6_0338_南山南_陈庆之-0001][P].mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/gt/0003.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/0003.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/0003.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/0003.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/visinger/0003.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/unisinger/0003.mp3" type="audio/mp3"></audio></td>
         </tr>
         <tr>
             <th>#5</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/gt/[G]1022#2-6_0940_阴天快乐_候青德-0007.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/1022#2-6_0940_阴天快乐_候青德-0007.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/1022#2-6_0940_阴天快乐_候青德-0007.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/1022#2-6_0940_阴天快乐_候青德-0007.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/visinger/1022#2-6_0940_阴天快乐_候青德-0007.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/unisinger/[000051][1022#2-6_0940_阴天快乐_候青德-0007][P].mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/gt/0004.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/0004.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/0004.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/0004.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/visinger/0004.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/unisinger/0004.mp3" type="audio/mp3"></audio></td>
         </tr>
     </tbody>
     </table>
