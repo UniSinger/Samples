@@ -23,7 +23,7 @@ All experiments in the paper are conducted on a large-scale singing voice datase
         <tbody>
         <tr>
             <th>#1</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/gt/0514#女_2_1_分手快乐_0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/gt/0000.mp3" type="audio/mp3"></audio></td>
             <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/0514#女_2_1-分手快乐-0000.mp3" type="audio/wav"></audio></td>
             <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/0514#女_2_1-分手快乐-0000.mp3" type="audio/wav"></audio></td>
             <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/0514#女_2_1-分手快乐-0000.mp3" type="audio/wav"></audio></td>
