@@ -24,11 +24,11 @@ All experiments in the paper are conducted on a large-scale singing voice datase
         <tr>
             <th>#1</th>
             <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/gt/0000.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/mel+hifigan/0514#女_2_1-分手快乐-0000.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2/0514#女_2_1-分手快乐-0000.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/fs2s/0514#女_2_1-分手快乐-0000.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/visinger/0514#女_2_1-分手快乐-0000.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/svs/unisinger/[000000][0514#女_2_1-分手快乐-0000][P].mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/mel+hifigan/0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/fs2/0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/fs2s/0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/visinger/0000.mp3" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svs_mp3/unisinger/0000.mp3" type="audio/mp3"></audio></td>
         </tr>
         <tr>
             <th>#2</th>
