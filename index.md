@@ -79,74 +79,58 @@ All experiments in the paper are conducted on a large-scale singing voice datase
             <th>Source</th>
             <th>Reference</th>
             <th>Reference (mel + HiFiGAN)</th>
-            <th>SpeechFlow (Pitch)</th>
             <th>SpeechFlow (Timbre)</th>
-            <th>SpeechFlow (Pitch + Timbre)</th>
-            <th>UniSinger (Pitch)</th>
             <th>UniSinger (Timbre)</th>
-            <th>UniSinger (Pitch + Timbre)</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <th>#1</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/GT/0000000001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/GT(mel+pwg)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(insertion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(replacement)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(replacement)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/source/0000_m.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref/0000.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref+hifigan/0000.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/speechsplit_timbre/0000.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/unisnger_timbre/0000_m.wav" type="audio/wav"></audio></td>
         </tr>
         <tr>
             <th>#2</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/GT/0000000001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/GT(mel+pwg)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(insertion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(replacement)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(replacement)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/source/0001_m.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref/0001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref+hifigan/0001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/speechsplit_timbre/0001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/unisnger_timbre/0001_m.wav" type="audio/wav"></audio></td>
         </tr>
         <tr>
             <th>#3</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/GT/0000000001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/GT(mel+pwg)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(insertion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(replacement)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(replacement)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/source/0002.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref/0002.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref+hifigan/0002.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/speechsplit_timbre/0002.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/unisnger_timbre/0002.wav" type="audio/wav"></audio></td>
         </tr>
         <tr>
             <th>#4</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/GT/0000000001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/GT(mel+pwg)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(insertion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(replacement)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(replacement)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/source/0003_m.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref/0003.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref+hifigan/0003.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/speechsplit_timbre/0003.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/unisnger_timbre/0003_m.wav" type="audio/wav"></audio></td>
         </tr>
         <tr>
             <th>#5</th>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/GT/0000000001.mp3" type="audio/mp3"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/GT(mel+pwg)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(insertion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(replacement)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(replacement)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
-            <td><audio style="width: 150px;" controls="" ><source src="resources/MOS1/editsinger(deletion)/0000000001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/source/0004_m.wav" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref/0004.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref+hifigan/0004.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/speechsplit_timbre/0004.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/unisnger_timbre/0004_m.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+            <th>#6</th>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/source/0005_m.wav" type="audio/mp3"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref/0005.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/ref+hifigan/0005.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/speechsplit_timbre/0005.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc/unisnger_timbre/0005_m.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
     </table>
