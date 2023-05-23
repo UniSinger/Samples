@@ -70,7 +70,8 @@ All experiments in the paper are conducted on a large-scale singing voice datase
     </table>
 </div>
 
-## 2 Singing Voice Conversion
+## 2 Singing Voice Conversion (Timbre)
+### 2.1 Timbre-only Conversion
 <div>
     <table style='width: 100%;'>
         <thead>
@@ -79,8 +80,8 @@ All experiments in the paper are conducted on a large-scale singing voice datase
             <th>Source</th>
             <th>Reference</th>
             <th>Reference (mel + HiFiGAN)</th>
-            <th>SpeechFlow (Timbre)</th>
-            <th>UniSinger (Timbre)</th>
+            <th>SpeechFlow </th>
+            <th>UniSinger </th>
         </tr>
         </thead>
         <tbody>
@@ -136,7 +137,60 @@ All experiments in the paper are conducted on a large-scale singing voice datase
     </table>
 </div>
 
-## 3 Singing Voice Editing
+### 2.2 Pitch-only Conversion
+the fundamental frequencies of samples presented below are multiplied by constant factors 0.8.
+<div>
+    <table style='width: 100%;'>
+        <thead>
+        <tr>
+            <th>index</th>
+            <th>Reference</th>
+            <th>Reference (mel + HiFiGAN)</th>
+            <th>SpeechFlow</th>
+            <th>UniSinger</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>#1</th>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/ref/0000.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/mel+hifigan/0000.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/speechsplit/0000.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/unisinger_pitch/0000.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+            <th>#2</th>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/ref/0001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/mel+hifigan/0001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/speechsplit/0001.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/unisinger_pitch/0001.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+            <th>#3</th>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/ref/0002.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/mel+hifigan/0002.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/speechsplit/0002.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/unisinger_pitch/0002.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+            <th>#4</th>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/ref/0003.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/mel+hifigan/0003.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/speechsplit/0003.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/unisinger_pitch/0003.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+            <th>#5</th>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/ref/0004.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/mel+hifigan/0004.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/speechsplit/0004.wav" type="audio/wav"></audio></td>
+            <td><audio style="width: 150px;" controls="" ><source src="resources/svc_pitch/unisinger_pitch/0004.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+## 4 Singing Voice Editing
 #### Exp. 1:
 original lyrics: 爱可以不问对错 —— <BOS> ai # k e | y i # b u | w en # d ui | c uo <EOS> <br>
 insertion: 爱<font color="red">怎么</font>可以不问对错 —— <BOS> ai # <font color="red">z en | m e #</font> k e | y i # b u | w en # d ui | c uo <EOS> <br>
