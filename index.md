@@ -70,7 +70,7 @@ All experiments in the paper are conducted on a large-scale singing voice datase
     </table>
 </div>
 
-## 2 Singing Voice Conversion (Timbre)
+## 2 Singing Voice Conversion 
 ### 2.1 Timbre-only Conversion
 <div>
     <table style='width: 100%;'>
