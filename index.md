@@ -71,7 +71,7 @@ All experiments in the paper are conducted on a large-scale singing voice datase
 </div>
 
 ## 2 Singing Voice Conversion 
-### 2.1 Timbre-only Conversion
+### 2.1 Timbre Conversion
 <div>
     <table style='width: 100%;'>
         <thead>
@@ -137,7 +137,7 @@ All experiments in the paper are conducted on a large-scale singing voice datase
     </table>
 </div>
 
-### 2.2 Pitch-only Conversion
+### 2.2 Pitch Conversion
 the fundamental frequencies of samples presented below are multiplied by constant factors 0.8.
 <div>
     <table style='width: 100%;'>
@@ -189,8 +189,6 @@ the fundamental frequencies of samples presented below are multiplied by constan
     </tbody>
     </table>
 </div>
-
-### 2.3 Pitch + Timbre Conversion
 
 ## 4 Singing Voice Editing
 #### Exp. 1:
